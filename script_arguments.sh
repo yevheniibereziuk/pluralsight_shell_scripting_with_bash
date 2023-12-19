@@ -1,0 +1,7 @@
+printf "The script is: %s\n" "$0"
+printf "The number of arguments is: %s\n" "$#"
+printf "The aruments list is: %s\n" "$*"
+printf "The aruments as an array are: %s\n" "$@"
+fname="$1"
+lname="$2"
+printf "First: %s Last: %s\n" "$fname" "$lname"
